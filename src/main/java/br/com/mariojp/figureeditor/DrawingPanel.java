@@ -16,6 +16,7 @@ class DrawingPanel extends JPanel {
     private static final int DEFAULT_SIZE = 60;
     private final List<Shape> shapes = new ArrayList<>();
     private Point startDrag = null;
+    private int x = 0;
 
     DrawingPanel() {
         
