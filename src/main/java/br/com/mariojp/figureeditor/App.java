@@ -5,6 +5,7 @@ import java.awt.*;
 
 public class App {
     public static void main(String[] args) {
+    	int x = 0;
         SwingUtilities.invokeLater(() -> {
             try {
                 UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
